@@ -12,7 +12,6 @@ json_file_path = 'Poland.json'
 pdf_directory = 'Poland/'
 
 pdf_files = glob(os.path.join('Poland/*.pdf'))
-print(pdf_files)
 
 # Check if the file exists
 if os.path.exists(json_file_path):

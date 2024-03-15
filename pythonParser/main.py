@@ -60,8 +60,6 @@ if __name__ == '__main__':
             courses[identifier] = module
             identifier = str(int(identifier) + 1)
 
-    print(courses)
-
     # Check if the file exists
     if os.path.exists(json_file_path):
         # If the file exists, read its content first
